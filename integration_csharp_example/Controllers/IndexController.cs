@@ -56,7 +56,9 @@ namespace integration_csharp_example.Controllers
                 return Redirect("/");
             }
 
-            return View(oUser);
+            Session["oUser"] = oUser;
+
+            return Redirect("/home");
         }
 
         private ReniecIdaasClient getClient()

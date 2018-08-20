@@ -27,6 +27,12 @@ namespace integration_csharp_example
                 url: "auth-endpoint",
                 defaults: new { controller = "Index", action = "Endpoint" }
             );
+
+            routes.MapRoute(
+               name: "Home",
+               url: "home",
+               defaults: new { controller = "Home", action = "Index" }
+           );
         }
     }
 }
