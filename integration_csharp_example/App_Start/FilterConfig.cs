@@ -2,7 +2,7 @@
 using System.Web.Mvc;
 
 /**
- * @author Miguel Pazo (http://miguelpazo.com)
+ * @author Miguel Pazo (https://miguelpazo.com)
  */
 namespace integration_csharp_example
 {

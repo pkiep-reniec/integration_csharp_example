@@ -1,7 +1,0 @@
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\bin\Debug\idaas_sdk_csharp.dll
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\bin\Debug\idaas_sdk_csharp.pdb
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\bin\Debug\Newtonsoft.Json.dll
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\bin\Debug\Newtonsoft.Json.xml
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\obj\Debug\idaas_sdk_csharp.dll
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\obj\Debug\idaas_sdk_csharp.pdb
-D:\__Projects\RENIEC_IDaaS\integration_csharp_example\idaas_sdk_csharp\obj\Debug\idaas_sdk_csharp.csprojResolveAssemblyReference.cache

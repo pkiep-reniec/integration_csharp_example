@@ -7,17 +7,27 @@ using System.Threading.Tasks;
 using System.Web.Mvc;
 
 /**
- * @author Miguel Pazo (http://miguelpazo.com)
+ * @author Miguel Pazo (https://miguelpazo.com)
  */
 namespace integration_csharp_example.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : ParentController
     {
+        private String redirectUri = "http://localhost:54142/auth-endpoint";
+
         public ActionResult Index()
         {
             User oUser = (User)Session["oUser"];
 
             return View(oUser);
+        }
+
+        public ActionResult Logout()
+        {
+            ReniecIdaasClient oReniecClient = getClient();
+            String uriLogout = oReniecClient.getLogoutUri(baseUrl);
+
+            return Redirect(uriLogout);
         }
     }
 }

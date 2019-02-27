@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 
 /**
- * @author Miguel Pazo (http://miguelpazo.com)
+ * @author Miguel Pazo (https://miguelpazo.com)
  */
 namespace integration_csharp_example
 {
@@ -33,6 +33,12 @@ namespace integration_csharp_example
                url: "home",
                defaults: new { controller = "Home", action = "Index" }
            );
+
+            routes.MapRoute(
+                name: "Logout",
+                url: "logout",
+                defaults: new { controller = "Home", action = "Logout" }
+            );
         }
     }
 }
