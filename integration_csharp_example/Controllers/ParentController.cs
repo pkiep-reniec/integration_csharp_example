@@ -19,10 +19,8 @@ namespace integration_csharp_example.Controllers
             String jsonConfig = Server.MapPath("~/App_Data/reniec_idaas.json");
             ReniecIdaasClient oReniecClient = new ReniecIdaasClient(jsonConfig);
 
-            oReniecClient.acr = Constants.ACR_ONE_FACTOR;
+            oReniecClient.acr = Constants.ACR_PKI_DNIE;
             oReniecClient.lstScopes.Add(Constants.SCOPE_PROFILE);
-            oReniecClient.lstScopes.Add(Constants.SCOPE_EMAIL);
-            oReniecClient.lstScopes.Add(Constants.SCOPE_PHONE);
             oReniecClient.redirectUri = baseUrl + "/auth-endpoint";
             oReniecClient.state = RandomString(10);
 
